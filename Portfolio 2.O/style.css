@@ -1,0 +1,724 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+@keyframes Change {
+    0% {
+        font-size: 20px;
+    }
+
+    50% {
+        font-size: 25px;
+    }
+
+    100% {
+        font-size: 30px;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: #000000;
+    width: 100%;
+
+}
+
+.head_name h1 {
+    font-size: 35px;
+    font-family: 'poppins', sans-serif;
+    color: #ffffff;
+
+
+}
+
+.bar img {
+    width: 30px;
+    margin: 0px 20px 0px 100px;
+}
+
+ul {
+    list-style: none;
+}
+
+.bar ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.bar ul li a {
+    display: block;
+    padding: 10px 0px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'poppins', sans-serif;
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown {
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    background-color: #000000;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+.bar ul li a:hover {
+    font-size: 17px;
+}
+
+main {
+    margin-top: 10px;
+}
+
+.my_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my_image img {
+    width: 270px;
+}
+
+.hello {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #727272;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 30px;
+}
+
+.name {
+    font-family: 'math';
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profession {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #727272;
+    font-weight: bold;
+    height: 6vh;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.btn1 {
+    padding: 15px;
+    background: #ffffff;
+    color: black;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn1:hover {
+    font-size: 16px;
+}
+
+.btn2:hover {
+    font-size: 16px;
+}
+
+.btn2 {
+    padding: 15px;
+    background: black;
+    color: #ffffff;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link1 {
+    width: 100px;
+}
+
+.link1:hover {
+    width: 105px;
+}
+
+.link2 {
+    width: 30px;
+    margin-left: 30px;
+}
+
+.link2:hover {
+    width: 35px;
+}
+
+.know_more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+}
+
+.secondsection {
+    margin-bottom: 50px;
+}
+
+.secondsection h1 {
+    font-family: 'math';
+    font-weight: bold;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+hr {
+    width: 20%;
+    margin-left: 40%;
+}
+
+.experience h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins', sans-serif;
+}
+
+.experience p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins', sans-serif;
+    margin-top: 7px;
+}
+
+.education h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins', sans-serif;
+}
+
+.education p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0rem;
+    font-family: 'poppins', sans-serif;
+
+}
+
+.experience img {
+    width: 50px;
+}
+
+.education img {
+    width: 50px;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience {
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    height: -webkit-fill-available;
+    width: 270px;
+}
+
+.education {
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    height: -webkit-fill-available;
+    width: 270px;
+}
+
+.blocks {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.aboutpara {
+    margin: 2% 20% 2% 20%;
+}
+
+.aboutpara p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+}
+
+.thirdsection {
+    margin: 50px 0px 50px 0px;
+}
+
+.thirdsection h1 {
+    font-family: 'math';
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thirdsection p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.langauge {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 300px;
+    height: -webkit-fill-available;
+    padding: 10px;
+    margin: 5px;
+}
+
+.langauge img {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.langauge h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+
+}
+
+.langauge p {
+    font-family: 'poppins';
+    margin-left: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.columns {
+    display: inline-flex;
+    margin-top: 10px;
+}
+
+.row1 {
+    display: inline-flex;
+    margin: 10px;
+}
+
+.row2 {
+    display: flex;
+    margin: 10px;
+}
+
+.row3 {
+    display: inline-flex;
+    margin: 10px;
+}
+
+.row4 {
+    display: flex;
+    margin: 10px;
+}
+
+.blocks2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.myprojects h1 {
+    font-family: 'math';
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myprojects p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.myprojects {
+    margin: 50px 0px 50px 0px;
+
+}
+
+.curr {
+    width: 140px;
+    height: 140px;
+    display: flex;
+    justify-self: center;
+}
+
+
+
+.currency2 {
+    display: grid;
+    font-family: 'Poppins';
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    height: -webkit-fill-available;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.currency2 h2 {
+    font-family: 'poppins';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin: 8px 0px 8px 0px;
+}
+
+.gitdemo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.github1 {
+    padding: 7px;
+    background: #ffffff;
+    color: black;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-size: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.github1:hover {
+    font-size: 12px;
+}
+
+.demo:hover {
+    font-size: 12px;
+}
+
+.demo {
+    padding: 7px;
+    background: #000000;
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.block3 {
+    margin-top: 20px;
+
+}
+
+.subblock1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subblock2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subblock3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img{
+    padding: 170px;
+    margin: -150px 0px -150px 0px;
+}
+#img2{
+    padding: 170px;
+    margin: -150px 0px -150px 0px;
+}
+
+.my_certificats h1 {
+    font-family: 'math';
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my_certificats p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.certificate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px 30px 0px;
+
+}
+
+
+.my_contact {
+    margin: 50px 0px 50px 0px;
+}
+
+.my_contact h1 {
+    font-family: 'math';
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my_contact p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.contact li a {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+    color: rgb(0 0 0);
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'poppins', sans-serif;
+}
+
+.contact li {
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+    margin: 10px;
+    height: 30px;
+    color: rgb(0 0 0);
+    text-decoration: none;
+    text-align: center;
+    justify-content: flex-start;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'poppins', sans-serif;
+}
+
+.contact li:hover {
+    font-size: 22px;
+}
+
+.contact li a:hover {
+    font-size: 22px;
+}
+
+.contact ul {
+    display: grid;
+    justify-content: center;
+    margin: 30px 0px 30px 0px;
+
+}
+
+.contact ul li img {
+    width: 30px;
+    margin: 7px;
+}
+
+footer {
+    background-color: #000000;
+    padding: 5px;
+    width: 100%;
+}
+
+.line1 {
+    padding: 20px;
+}
+
+.line2 {
+    padding: 20px;
+}
+
+.line1 ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.line1 ul li {
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0px 10px;
+    font-family: 'poppins', sans-serif;
+}
+
+.line1 ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.line1 ul li a:hover {
+    font-size: 19px;
+}
+
+.line2 p {
+    color: #ffffff;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+
+@media screen and (max-width:600px) {
+    .head_name h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        width: 120%;
+    }
+
+    .name {
+        font-size: 26px;
+    }
+
+    .langauge {
+        height: fit-content;
+        width: fit-content;
+        margin-left: 4px;
+        margin-right: 3px;
+    }
+
+    .langauge h3 {
+        justify-content: flex-start;
+    }
+
+    .columns {
+        display: inline-grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blocks2 {
+        margin: 20px;
+    }
+
+    .block3 {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .subblock1 {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .subblock2 {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .subblock3 {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .certificate img {
+        width: 100%;
+    }
+
+    .education p {
+        font-size: 12px;
+        margin-top: 7px;
+    }
+
+    .experience p {
+        font-size: 13px;
+        margin-top: 7px;
+    }
+}
